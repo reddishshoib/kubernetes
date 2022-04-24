@@ -17,5 +17,20 @@ A. Installing Kubernetes
      chmod +x kubectl
      mkdir -p ~/.local/bin
     mv ./kubectl ~/.local/bin/kubectl
- 5. To check the installed version is up to date or not
-     kubectl version --client
+    
+     
+5. Install docker using the given link
+      https://docs.docker.com/engine/install/ubuntu/
+     
+     
+6. Start minikube node using
+    minikube start --driver=docker
+   
+7. Check status of node
+    minikube status 
+      
+8. Check ip address of node
+   minikube status
+   
+9. 
+ 
