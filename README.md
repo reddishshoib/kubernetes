@@ -1,4 +1,4 @@
-# kubernetes In Aws
+# Starting kubernetes in local machine
 Kuvernetes Notes
 
 A. Installing Kubernetes
