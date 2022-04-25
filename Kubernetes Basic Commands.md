@@ -17,4 +17,5 @@
 15. kubectl expose nginx-deployment --port=8080 --target-port=80 ( it will expose the deployed pods under nginx-deployment to given port of post)
 16. kubectl get services ( gives list of all the running services now you can also see a service named nginx-deployment and it's ip address will be completely different from the pod's ip address a
 17. kubectl delete deployment nginx-deployment (it delete the deployment)
-18. minikube stop (it stops minikube node)
+18. kubectl delete svc nginx-deployment (delete services start by exposing the nginx-deployment deployment)
+19. minikube stop (it stops minikube node)
