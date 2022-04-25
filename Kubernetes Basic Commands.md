@@ -23,8 +23,8 @@
 NOTE: the ip assigned to deployment is known cluster ip address and it can not be accessed outside the cluster to accessed from outside the cluster you have to use load balancer
 20. To expose the node outside the cluster use --types while exposing the nods
     (ex. kubectl expose deployment nginx-deployment --type=NodePort --port=3000
-    here --port=3000 refers to the port 3000 of the pod that will be exposed to cluster  and by getting    
-    services  (kubectl get svc) we get  in PORT(S) column 3000:<any port no>/tcp
+    here --port=80 refers to the port 80 of the pod that will be exposed to cluster  and by getting    
+    services  (kubectl get svc) we get  in PORT(S) column 80:<any port no>/tcp
      to access this pod get the url using (minikube service nginx-deployment  --url) 
      u will get a url by using this u can access the pods from outside the cluster)
 21. minikube dashboard ( to get all the pods status in your web browser)
