@@ -19,3 +19,5 @@
 17. kubectl delete deployment nginx-deployment (it delete the deployment)
 18. kubectl delete svc nginx-deployment (delete services start by exposing the nginx-deployment deployment)
 19. minikube stop (it stops minikube node)
+
+NOTE: the ip assigned to deployment is known cluster ip address and it can not be accessed outside the cluster to accessed from outside the cluster you have to use load balancer
